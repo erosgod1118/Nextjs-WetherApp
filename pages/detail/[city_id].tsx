@@ -37,7 +37,7 @@ type Props = {
     weather: WeatherData
 }
 
-export default function ({ city, weather }: Props) {
+export default function DetailCity({ city, weather }: Props) {
     const iconUrl = `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
 
     return (
